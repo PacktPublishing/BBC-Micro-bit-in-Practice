@@ -2,8 +2,6 @@ from microbit import *
 from neopixel import NeoPixel
 import random
 
-# Lighting up Random Pixel
-
 num_pixels = 12
 ring = NeoPixel(pin0, num_pixels)
 
@@ -17,3 +15,4 @@ while True:
         r = r + dir
         if r == 0 or r == num_pixels:
             dr = 0 - dir
+        ring.clear()

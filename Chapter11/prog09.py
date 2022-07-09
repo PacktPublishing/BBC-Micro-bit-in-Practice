@@ -36,10 +36,10 @@ def demo(ring, num_pixels):
             ring[j] = (val, 0, 0)
         ring.show()
 
-    # clear
-    for i in range(n):
-        ring[i] = (0, 0, 0)
-    ring.show()
+    ring.clear()
 
-while True:
-    demo(ring, num_pixels)
+try:
+    while True:
+        demo(ring, num_pixels)
+except KeyboardInterrupt as e:
+    print("Interrupted by the user...")
