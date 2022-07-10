@@ -1,0 +1,15 @@
+from matrix7seg import Matrix7seg
+from microbit import spi, pin0, sleep
+seg_display = Matrix7seg(spi, pin0)
+seg_display.write_number(1234)
+seg_display.show()
+sleep(2000)
+seg_display.write_number(1234, zeroPad=True)
+seg_display.show()
+sleep(2000)
+seg_display.write_number(12345678)
+seg_display.show()
+sleep(2000)
+seg_display.write_number(1234, leftJustify=True)
+seg_display.show()
+sleep(2000)
