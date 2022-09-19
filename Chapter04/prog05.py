@@ -1,11 +1,7 @@
-office_suites = list (('Microsoft Office', 'LibreOffice',
-                       'Apache OpenOffice', 'FreeOffice',
-                       'WPS Office', 'Polaris Office',
-                       'StarOffice', 'NeoOffice',
-                       'Calligra Suite', 'OnlyOffice'))
+def team( *members ):
+    print("\nMy team has following members :")
+    for name in members:
+        print( name )
 
-i = 0
-
-while i < len(office_suites):
-    print(office_suites[i])
-    i = i + 1
+team('Ashwin', 'Jane', 'Thor', 'Tony')
+team('Ashwin', 'Jane', 'Thor')

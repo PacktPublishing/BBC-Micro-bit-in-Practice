@@ -1,11 +1,7 @@
-def ping(i):
-    if i > 0:
-        print("Ping - " + str(i))
-        return pong(i-1)
+def fibonacci(number):
+    if number <= 1:
+        return number
+    else:
+        return fibonacci(number-1) + fibonacci(number-2)
 
-def pong(i):
-    if i > 0:
-        print("Pong - " + str(i))
-        return ping(i-1)
-
-ping(10)
+print(fibonacci(3))

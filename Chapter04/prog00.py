@@ -1,8 +1,8 @@
-def message():
-    name = input("What is your name, My liege : ")
-    print("Ashwin is your humble servant, My liege " + name)
+office_suites = list (('Microsoft Office', 'LibreOffice',
+                       'Apache OpenOffice', 'FreeOffice',
+                       'WPS Office', 'Polaris Office',
+                       'StarOffice', 'NeoOffice',
+                       'Calligra Suite', 'OnlyOffice'))
 
-print("First function call...")
-message()
-print("Second function call...")
-message()
+for i in office_suites:
+    print(i)

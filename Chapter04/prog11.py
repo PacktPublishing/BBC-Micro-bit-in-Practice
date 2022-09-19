@@ -1,12 +1,11 @@
-class fruit:
-    
-    def __init__(self, str):
-        self.name = str
-    
-    def printName(self):
-        print(self.name)
+def ping(i):
+    if i > 0:
+        print("Ping - " + str(i))
+        return pong(i-1)
 
+def pong(i):
+    if i > 0:
+        print("Pong - " + str(i))
+        return ping(i-1)
 
-f1 = fruit('Mango')
-print(type(f1))
-f1.printName()
+ping(10)
