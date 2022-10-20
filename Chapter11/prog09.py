@@ -10,19 +10,19 @@ def demo(ring, num_pixels):
     # cycle
     for i in range(4 * n):
         for j in range(n):
-            ring[j] = (0, 0, 0)
-        ring[i % n] = (255, 255, 255)
+            ring[j] = [0, 0, 0]
+        ring[i % n] = [255, 255, 255]
         ring.show()
         sleep(25)
 
     # bounce
     for i in range(4 * n):
         for j in range(n):
-            ring[j] = (0, 0, 128)
+            ring[j] = [0, 0, 128]
         if (i // n) % 2 == 0:
-            ring[i % n] = (0, 0, 0)
+            ring[i % n] = [0, 0, 0]
         else:
-            ring[n - 1 - (i % n)] = (0, 0, 0)
+            ring[n - 1 - (i % n)] = [0, 0, 0]
         ring.show()
         sleep(60)
 
@@ -33,7 +33,7 @@ def demo(ring, num_pixels):
                 val = i & 0xff
             else:
                 val = 255 - (i & 0xff)
-            ring[j] = (val, 0, 0)
+            ring[j] = [val, 0, 0]
         ring.show()
 
     ring.clear()

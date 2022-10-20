@@ -9,9 +9,9 @@ delay = 500
 
 def glowAll():
     for i in range(0, len(ring)):
-        ring[i] = (randint(0, 255),
+        ring[i] = [randint(0, 255),
                    randint(0, 255),
-                   randint(0, 255))
+                   randint(0, 255)]
     ring.show()
     return 0
 

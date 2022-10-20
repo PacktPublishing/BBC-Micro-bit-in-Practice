@@ -12,9 +12,8 @@ try:
             green = randint(0, 60)
             blue = randint(0, 60)
             ring[i-1] = [0, 0, 0]
-            ring[i] = (red, green, blue)
+            ring[i] = [red, green, blue]
             ring.show()
-            ring[i] = (0, 0, 0)
             sleep(100)
 except KeyboardInterrupt as e:
     print("Interrupted by the user...")

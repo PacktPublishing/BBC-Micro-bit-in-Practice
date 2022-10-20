@@ -12,7 +12,7 @@ def glowAll():
     green = randint(0, 255)
     blue = randint(0, 255)
     for i in range(0, len(ring)):
-        ring[i] = (red, green, blue)
+        ring[i] = [red, green, blue]
     ring.show()
     return 0
 

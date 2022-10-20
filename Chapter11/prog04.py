@@ -14,9 +14,9 @@ values = [[0, 0, 0], [0, 63, 0],
 
 try:
     while True:
-        for i in range(0, 12, 1):
+        for i in range(0, num_pixels, 1):
             print(values[int((i + shift) % num_pixels)])
-            ring[int(i)] = values[int((i + shift) % num_pixels)]
+            ring[i] = values[int((i + shift) % num_pixels)]
         print('--')
         ring.show()
         sleep(250)

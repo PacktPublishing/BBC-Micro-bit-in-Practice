@@ -9,7 +9,7 @@ r = 0
 dir = 1
 while True:
     for i in range(num_pixels):
-        ring[i] = (r, 0, 0)
+        ring[i] = [r, 0, 0]
         ring.show()
         sleep(15)
         r = r + dir
