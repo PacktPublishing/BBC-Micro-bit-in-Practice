@@ -77,3 +77,8 @@ He completed his BE in electronics engineering from Jiwaji University, Gwalior, 
 
 **Sandeep Saini**
 He works as an assistant professor in the Department of Electronics and Communication Engineering at the LNM Institute of Information and Technology, Jaipur, India. He has taught robotics and electronics subjects at the university level in India and abroad for over a decade. He has taught more than 8,000 students online and offline during this time. He received a BTech and MS in electronics and communication engineering from the International Institute of Information Technology, Hyderabad, India. He received his PhD from Malaviya National Institute of Technology (MNIT), Jaipur, India. He has written 6 books and published 35 peer-reviewed journals and conference papers.
+
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781804610121">https://packt.link/free-ebook/9781804610121 </a> </p>
